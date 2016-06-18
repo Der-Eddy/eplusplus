@@ -13,6 +13,8 @@ Screenshots
 -------------
 ![markMentions](img/markMentions.gif)
 
+![currencyConverter](img/currencyConverter.gif)
+
 ![colorBorder](img/colorBorder.png)
 
 License
