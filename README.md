@@ -1,7 +1,8 @@
 Elitepvpers++
 =====================
 
-Adds some neat functionality to Elitepvpers.com
+Adds some neat functionality to Elitepvpers.com  
+Check also our [Trello Board](https://trello.com/b/PSkgLwj6/e)
 
 Install
 -------------
