@@ -4,7 +4,7 @@
 // @description E++
 // @include     *//www.elitepvpers.com/forum/*
 // @author      Der-Eddy
-// @version     1.3
+// @version     1.3.1
 // @downloadURL https://github.com/Der-Eddy/eplusplus/raw/master/Elitepvpers%2B%2B.user.js
 // @grant       none
 // ==/UserScript==
@@ -128,7 +128,7 @@
                 });
 
                 $('#euro').bind('input', function() {
-                  $('#eg').val(Math.round((parseInt($('#ex_rate').val()) / parseInt($('#ex_euro').val())) * parseInt($(this).val())));
+                  $('#eg').val(Math.round((parseInt($('#ex_rate').val()) / parseInt($('#ex_euro').val())) * parseFloat($(this).val().replace(',', '.'))));
                 });
 
                 $('#eg').bind('input', function() {
