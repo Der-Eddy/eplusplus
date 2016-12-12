@@ -4,7 +4,7 @@
 // @description E++
 // @include     *//www.elitepvpers.com/forum/*
 // @author      Der-Eddy
-// @version     1.3.1
+// @version     1.3.2
 // @downloadURL https://github.com/Der-Eddy/eplusplus/raw/master/Elitepvpers%2B%2B.user.js
 // @grant       none
 // ==/UserScript==
@@ -33,11 +33,11 @@
 
     function colorBorder(set){
         if (set){
-            $('img[src*="elitepvpers.com/forum/images/teamicons/relaunch/moderator.png"]').parent().parent().css('border-right', '3px solid green');
-            $('img[src*="elitepvpers.com/forum/images/teamicons/relaunch/commanager.png"]').parent().parent().css('border-right', '3px solid blue');
+            $('img[src*="elitepvpers.com/forum/images/teamicons/relaunch/moderator.png"]').parent().parent().filter('.alt2').css('border-right', '3px solid green');
+            $('img[src*="elitepvpers.com/forum/images/teamicons/relaunch/commanager.png"]').parent().parent().filter('.alt2').css('border-right', '3px solid blue');
             //$('img[src*="elitepvpers.com/forum/images/teamicons/relaunch/moderator.png"]').parent().parent().parent().parent().parent().find('t.thead').css('background: green;');
-            $('img[src*="elitepvpers.com/forum/images/teamicons/relaunch/globalmod.png"]').parent().parent().css('border-right', '3px solid orange');
-            $('img[src*="elitepvpers.com/forum/images/teamicons/relaunch/coadmin.png"]').parent().parent().css('border-right', '3px solid red');
+            $('img[src*="elitepvpers.com/forum/images/teamicons/relaunch/globalmod.png"]').parent().parent().filter('.alt2').css('border-right', '3px solid orange');
+            $('img[src*="elitepvpers.com/forum/images/teamicons/relaunch/coadmin.png"]').parent().parent().filter('.alt2').css('border-right', '3px solid red');
         }
     }
 
