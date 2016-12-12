@@ -34,6 +34,7 @@
     function colorBorder(set){
         if (set){
             $('img[src*="elitepvpers.com/forum/images/teamicons/relaunch/moderator.png"]').parent().parent().css('border-right', '3px solid green');
+            $('img[src*="elitepvpers.com/forum/images/teamicons/relaunch/commanager.png"]').parent().parent().css('border-right', '3px solid blue');
             //$('img[src*="elitepvpers.com/forum/images/teamicons/relaunch/moderator.png"]').parent().parent().parent().parent().parent().find('t.thead').css('background: green;');
             $('img[src*="elitepvpers.com/forum/images/teamicons/relaunch/globalmod.png"]').parent().parent().css('border-right', '3px solid orange');
             $('img[src*="elitepvpers.com/forum/images/teamicons/relaunch/coadmin.png"]').parent().parent().css('border-right', '3px solid red');
